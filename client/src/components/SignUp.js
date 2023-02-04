@@ -3,8 +3,9 @@
 
 const SignUp = () => {
     return ( 
-        <div>
+        <div id="sign-up">
             <h4>Sign Up</h4>
+            
         </div>
     );
 }
