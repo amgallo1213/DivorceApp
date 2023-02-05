@@ -6,13 +6,13 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavBar = () => {
     return ( 
         <div>
-            <Navbar bg="light" variant="light" fixed="top">
+            <Navbar id="navbar" fixed="top">
                 <Container>
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Navbar.Brand href="#home" class="navbar">Pro Se Divorce</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">Features</Nav.Link>
-                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    <Nav.Link href="#home" class="navbar">Home</Nav.Link>
+                    <Nav.Link href="#features" class="navbar">Features</Nav.Link>
+                    <Nav.Link href="#pricing" class="navbar">Pricing</Nav.Link>
                 </Nav>
                 </Container>
             </Navbar>

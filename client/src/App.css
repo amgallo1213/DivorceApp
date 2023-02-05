@@ -1,6 +1,15 @@
 /* font-family: 'Noto Serif', serif;
 font-family: 'Oswald', sans-serif; */
 
+#navbar {
+  background-color: #364649;
+  color: #E0D8CC;
+}
+
+.navbar {
+  color: #E0D8CC;
+  text-decoration: none;
+}
 
 #hero  {
   display: flex;
@@ -8,11 +17,13 @@ font-family: 'Oswald', sans-serif; */
   align-items: center;
   margin-top: 5rem;
   height: 20rem;
+  background-image: linear-gradient(#AA895F, #E0D8CC);
 }
 
 h1  {
   font-family: 'Oswald', sans-serif;
   text-align: center;
+  color: #364649;
 }
 
 #description  {
@@ -30,10 +41,17 @@ h1  {
   height: 10rem;
 }
 
+
+
 /* --------------------------------------------------- */
 
 #sign-up  {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#sign-up-btn  {
+  background-color: #708F96;
+  color: #E0D8CC;
 }

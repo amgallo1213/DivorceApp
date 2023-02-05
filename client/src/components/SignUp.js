@@ -1,4 +1,5 @@
 import Form from 'react-bootstrap/Form';
+import  Button from 'react-bootstrap/Button';
 
 
 const SignUp = () => {
@@ -14,6 +15,7 @@ const SignUp = () => {
                     <Form.Label>Password</Form.Label>
                     <Form.Control type="password" placeholder="Password" />
                 </Form.Group>
+                <Button type="submit" id="sign-up-btn">Submit</Button>
             </Form>
         </div>
     );

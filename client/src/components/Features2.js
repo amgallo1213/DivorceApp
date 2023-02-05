@@ -8,6 +8,11 @@ const Features2 = () => {
             </div> 
             <div>
                 <h3>Features Two</h3>
+                <ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
             </div>
         </div>
     );
