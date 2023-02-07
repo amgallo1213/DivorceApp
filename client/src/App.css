@@ -11,13 +11,16 @@ font-family: 'Oswald', sans-serif; */
   font-size: 20px;
 }
 
+#main {
+  background-image: linear-gradient( rgb(112, 143, 150, 0), rgb(170, 137, 95, 0), rgb(224, 216, 204, 1));
+}
+
 #hero  {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 3.9rem;
   height: 40rem;
-  background-image: linear-gradient(to bottom right, #708F96, #AA895F, #E0D8CC);
 }
 
 h1  {
