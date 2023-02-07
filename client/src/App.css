@@ -2,28 +2,29 @@
 font-family: 'Oswald', sans-serif; */
 
 #navbar {
-  background-color: #364649;
-  color: #E0D8CC;
+  background-color: #708F96;
 }
 
 .navbar {
   color: #E0D8CC;
   text-decoration: none;
+  font-size: 20px;
 }
 
 #hero  {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem;
-  height: 20rem;
-  background-image: linear-gradient(#AA895F, #E0D8CC);
+  margin-top: 3.9rem;
+  height: 40rem;
+  background-image: linear-gradient(to bottom right, #708F96, #AA895F, #E0D8CC);
 }
 
 h1  {
   font-family: 'Oswald', sans-serif;
   text-align: center;
   color: #364649;
+  padding-top: 6rem;
 }
 
 #description  {

@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import  Button  from 'react-bootstrap/Button';
 
 
 const NavBar = () => {
@@ -13,6 +14,7 @@ const NavBar = () => {
                     <Nav.Link href="#home" class="navbar">Home</Nav.Link>
                     <Nav.Link href="#features" class="navbar">Features</Nav.Link>
                     <Nav.Link href="#pricing" class="navbar">Pricing</Nav.Link>
+                    <Nav.Link href="signin">Sign In</Nav.Link>
                 </Nav>
                 </Container>
             </Navbar>
