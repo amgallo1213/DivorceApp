@@ -5,10 +5,11 @@ font-family: 'Oswald', sans-serif; */
   background-color: #708F96;
 }
 
-.navbar {
+.navbar, .nav-bar {
   color: #E0D8CC;
   text-decoration: none;
   font-size: 20px;
+  margin-right: 10px;
 }
 
 #main {
