@@ -13,6 +13,7 @@ font-family: 'Oswald', sans-serif; */
 
 #main {
   background-image: linear-gradient( rgb(112, 143, 150, 0), rgb(170, 137, 95, 0), rgb(224, 216, 204, 1));
+  height: 100vh;
 }
 
 #hero  {
@@ -58,4 +59,14 @@ h1  {
 #sign-up-btn  {
   background-color: #708F96;
   color: #E0D8CC;
+}
+
+
+/* --------------------------------------------------- */
+
+#sign-in {
+  margin-top: 6rem;
+  margin-left: 6rem;
+  padding: 6rem;
+  width: 800px;
 }
