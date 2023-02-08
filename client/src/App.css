@@ -66,7 +66,22 @@ h1  {
 
 #sign-in {
   margin-top: 6rem;
-  margin-left: 6rem;
-  padding: 6rem;
-  width: 800px;
+  margin-left: 4rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#left-sign-in {
+  padding: 2rem;
+}
+#sign-in-paragraph  {
+  padding: 1rem;
+  font-size: 24px;
+  font-family: 'Noto Serif', serif;
+}
+
+#sign-in-image  {
+  height: 800px;
 }
