@@ -13,7 +13,7 @@ const Features1 = () => {
                 </ul>
             </div>
             <div>
-                <p>photo</p>
+                <img src="https://images.pexels.com/photos/7841834/pexels-photo-7841834.jpeg?auto=compress&cs=tinysrgb&w=800" id="features-1-img"></img>
             </div> 
         </div>
     );

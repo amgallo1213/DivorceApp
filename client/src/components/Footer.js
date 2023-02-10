@@ -2,8 +2,9 @@
 
 const Footer = () => {
     return ( 
-        <div>
-            <h5>Footer</h5>
+        <div id="footer">
+            <h5 class="footer">amgallo1213</h5>
+            <p class="footer">Copyright 2023</p>
         </div>
     );
 }

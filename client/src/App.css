@@ -14,7 +14,7 @@ font-family: 'Oswald', sans-serif; */
 
 #main {
   background-image: linear-gradient( rgb(112, 143, 150, 0), rgb(170, 137, 95, 0), rgb(224, 216, 204, 1));
-  height: 100vh;
+  height: 100%;
 }
 
 #hero  {
@@ -30,12 +30,18 @@ h1  {
   text-align: center;
   color: #364649;
   padding-top: 6rem;
+  font-size: 16rem;
 }
 
 #description  {
   font-family: 'Noto Serif', serif;
   text-align: center;
   width: 50%;
+  font-size: 25px;
+}
+
+#hero-img {
+  height: 50%;
 }
 
 /* ------------------------------------------------- */
@@ -48,8 +54,8 @@ h1  {
 }
 
 
-#features-2-img {
-  height: 80%;
+#features-1-img, #features-2-img {
+  height: 90%;
 }
 
 
@@ -89,4 +95,17 @@ h1  {
 
 #sign-in-image  {
   height: 800px;
+}
+
+/* --------------------------------------------------- */
+
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer {
+  margin: 10px;
+  padding: 10px;
 }

@@ -5,7 +5,7 @@ import  Button from 'react-bootstrap/Button';
 const SignUp = () => {
     return ( 
         <div id="sign-up">
-            <h4>Sign Up</h4>
+            <h3>Sign Up</h3>
             <Form>
                 <Form.Group className="mb-3" >
                     <Form.Label>Email address</Form.Label>

@@ -9,6 +9,7 @@ const Hero = () => {
                 aliqua. Viverra maecenas accumsan lacus vel facilisis volutpat est. Euismod in pellentesque massa placerat. Mauris 
                 augue neque gravida in fermentum et sollicitudin ac orci. Risus at ultrices mi tempus imperdiet nulla malesuada 
                 pellentesque. </p>
+                <img src="https://images.pexels.com/photos/4098219/pexels-photo-4098219.jpeg?auto=compress&cs=tinysrgb&w=800" id="hero-img"></img>
         </div>
     );
 }
