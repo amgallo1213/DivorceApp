@@ -5,7 +5,8 @@ const Features1 = () => {
     return ( 
         <div id="features-1">
             <div>
-                <h2>Features 1</h2>
+                {/* <h2>Features 1</h2> */}
+                <p className="features-title">Features One</p>
                 <ul>
                     <li>One</li>
                     <li>Two</li>

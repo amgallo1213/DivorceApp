@@ -9,12 +9,12 @@ const NavBar = () => {
         <div>
             <Navbar id="navbar" fixed="top">
                 <Container>
-                <Navbar.Brand href="#home" class="navbar">Pro Se Divorce</Navbar.Brand>
+                <Navbar.Brand href="#home" className="navbar">Pro Se Divorce</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="#home" class="navbar nav-bar">Home</Nav.Link>
-                    <Nav.Link href="#features" class="navbar nav-bar">Features</Nav.Link>
-                    <Nav.Link href="#pricing" class="navbar nav-bar">Pricing</Nav.Link>
-                    <Nav.Link href="#faq" class="navbar nav-bar">FAQ</Nav.Link>
+                    <Nav.Link href="#home" className="navbar nav-bar">Home</Nav.Link>
+                    <Nav.Link href="#features" className="navbar nav-bar">Features</Nav.Link>
+                    <Nav.Link href="#pricing" className="navbar nav-bar">Pricing</Nav.Link>
+                    <Nav.Link href="#faq" className="navbar nav-bar">FAQ</Nav.Link>
                     <Nav.Link href="signin">Sign In</Nav.Link>
                 </Nav>
                 </Container>
