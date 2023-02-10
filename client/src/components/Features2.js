@@ -4,7 +4,7 @@ const Features2 = () => {
     return ( 
         <div id="features-2">
             <div>
-                <p>photo</p>
+                <img src="https://images.pexels.com/photos/8297031/pexels-photo-8297031.jpeg?auto=compress&cs=tinysrgb&w=800" id="features-2-img"></img>
             </div> 
             <div>
                 <h3>Features Two</h3>

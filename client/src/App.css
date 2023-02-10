@@ -48,6 +48,10 @@ h1  {
 }
 
 
+#features-2-img {
+  height: 80%;
+}
+
 
 /* --------------------------------------------------- */
 
@@ -67,7 +71,7 @@ h1  {
 
 #sign-in {
   margin-top: 6rem;
-  margin-left: 4rem;
+  margin-left: 2rem;
   padding: 4rem;
   display: flex;
   flex-direction: row;
@@ -78,7 +82,7 @@ h1  {
   padding: 2rem;
 }
 #sign-in-paragraph  {
-  padding: 1rem;
+  padding-top: 1rem;
   font-size: 24px;
   font-family: 'Noto Serif', serif;
 }

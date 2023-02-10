@@ -13,12 +13,15 @@ function App() {
     <div className="App">
       <NavBar />
       <div id="main">
-        {/* <Hero />
+        <Hero />
+        <hr></hr>
         <Features1 />
+        <hr></hr>
         <Features2 />
+        <hr></hr>
         <SignUp />
-        <Footer /> */}
-        <SignIn />
+        <Footer />
+        {/* <SignIn /> */}
       </div>
       
     </div>
