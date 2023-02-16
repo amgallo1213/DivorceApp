@@ -109,6 +109,7 @@ h1, #hero-title  {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  height: 85px;
 }
 
 .footer {

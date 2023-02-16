@@ -4,6 +4,7 @@ import Features1 from './components/Features1';
 import Features2 from './components/Features2';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
+import KanbanDivorceProcess from './components/KanbanDivorceProcess';
 import NavBar from './components/NavBar';
 import SignIn from './components/SignIn';
 import SignUp from './components/SignUp';
@@ -13,15 +14,16 @@ function App() {
     <div className="App">
       <NavBar />
       <div id="main">
-        <Hero />
+        {/* <Hero />
         <hr></hr>
         <Features1 />
         <hr></hr>
         <Features2 />
         <hr></hr>
         <SignUp />
-        <Footer />
+        <Footer /> */}
         {/* <SignIn /> */}
+        <KanbanDivorceProcess />
       </div>
       
     </div>
