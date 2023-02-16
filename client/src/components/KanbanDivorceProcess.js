@@ -23,7 +23,7 @@ const KanbanDivorceProcess = (props) => {
 
     return ( 
         <div id={props.id} className={props.className} onDrop={drop} onDragOver={dragOver}>
-            <p style={{fontSize : '80px'}}>hello</p>
+            
             { props.children }
         </div>
     );
