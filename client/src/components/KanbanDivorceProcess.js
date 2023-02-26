@@ -3,7 +3,6 @@ import React from 'react';
 
 
 
-
 const KanbanDivorceProcess = (props) => {
     const drop = e => {
         e.preventDefault();
@@ -26,7 +25,13 @@ const KanbanDivorceProcess = (props) => {
             
             { props.children }
         </div>
+
     );
 }
  
 export default KanbanDivorceProcess;
+
+
+
+
+  

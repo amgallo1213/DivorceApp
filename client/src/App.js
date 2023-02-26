@@ -13,8 +13,8 @@ function App() {
       <NavBar />
       <div id="main">
         {/* <Start /> */}
-        <SignIn />
-        {/* <SignedIn /> */}
+        {/* <SignIn /> */}
+        <SignedIn />
 
       </div>
       <Footer /> 
